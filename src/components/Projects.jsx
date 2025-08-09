@@ -1,6 +1,6 @@
 import React from 'react'
-import calculator from "../public/calculator.png"
-import nomado from "../public/nomado.png"
+import calculator from "../images/calculator.png"
+import nomado from "../images/nomado.png"
 
 export default function Projects() {
   return (
@@ -11,7 +11,7 @@ export default function Projects() {
       </div>
      
       <div className="project sm:flex bg-[#0d1321] xl:w-[86%] w-[96%] mx-auto  p-4 rounded-2xl overflow-hidden my-2">
-        <span className="img flex flex-grow overflow-hidden p-2 sm:h-56 sm:w-80 my-auto "><img src="/nomado.png" alt="project thumbnail" className='rounded-xl'/></span>
+        <span className="img flex flex-grow overflow-hidden p-2 sm:h-56 sm:w-80 my-auto "><img src={nomado} alt="project thumbnail" className='rounded-xl'/></span>
         <div className="project-info sm:w-2/3 sm:px-4 overflow-hidden">
             <h2 className='font-medium text-lg tracking-wider pt-4'>Nomado(Airbnb clone)</h2>
             <div className="project-tech py-4">
@@ -36,7 +36,7 @@ export default function Projects() {
         </div>
       </div>   
        <div className="project sm:flex bg-[#0d1321] xl:w-[86%] w-[96%] mx-auto  p-4 rounded-2xl overflow-hidden my-2">
-        <span className="img flex flex-grow overflow-hidden p-2 sm:h-56 sm:w-80 my-auto "><img src="/calculator.png" alt="project thumbnail" className='rounded-xl'/></span>
+        <span className="img flex flex-grow overflow-hidden p-2 sm:h-56 sm:w-80 my-auto "><img src={calculator} alt="project thumbnail" className='rounded-xl'/></span>
         <div className="project-info sm:w-2/3 sm:px-4 overflow-hidden">
             <h2 className='font-medium text-lg tracking-wider pt-4'>Calculator</h2>
             <div className="project-tech py-4">

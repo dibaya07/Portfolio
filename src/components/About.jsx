@@ -1,5 +1,5 @@
 import React from "react";
-// import profile from "../public/profile.JPG";
+import profile from "../images/profile.JPG";
 
 export default function About() {
   return (
@@ -29,7 +29,7 @@ export default function About() {
           </div>
           <div className=" h-52 w-52 absolute -top-1 border-solid border-8  border-[#0d1321] rounded-full sm:hidden"></div>
           <img
-            src="/profile.JPG"
+            src={profile}
             alt="project thumbnail"
             className="rounded-full h-48 w-48 sm:h-64 sm:w-56 absolute sm:static top-1 object-contain"
           />
