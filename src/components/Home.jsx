@@ -11,7 +11,7 @@ import About from './About'
 
 export default function Home() {
   return (
-    <div className='h-screen w-full bg-[#02080f]  text-white '>
+    <div className='h-full w-full bg-[#02080f]  text-white '>
       <div className="navbar flex justify-center  ">
       {/* <div className="logo bg-transparent sm:hidden flex flex-grow  items-center pl-2 py-4 sm:py-0 sm:pl-0 font-bold text-3xl "><TbBrandDjango /></div> */}
       <Navbar/>
