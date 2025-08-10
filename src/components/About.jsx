@@ -5,18 +5,19 @@ export default function About() {
   return (
     <section id="about" className="bg-[#223550] py-4  xl:px-20 xl:h-[90%]">
       <div className="profile flex flex-wrap-reverse sm:flex-nowrap lg:h-[28rem]">
-        <div className="info sm:w-[55%] m-2 sm:m-2 mt-24  bg-[#0d1321] p-6 sm:p-16 pt-24  rounded-3xl ">
+        <div className="info sm:w-[55%] m-2 sm:m-2 mt-24  bg-[#0d1321] p-6 sm:px-16 sm:py-8 pt-24  rounded-3xl ">
           <h2 className="text-xs sm:py-2 pt-8 pb-3">Hey,i'm</h2>
           <h2 className="text-2xl font-semibold ">Dibaya Jyoti Baruah</h2>
           <p className=" py-6 sm:pr-12  opacity-75 font-medium text-sm sm:text-base">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            architecto, velit excepturi doloremque commodi eveniet minus optio.
-            Dolore, perferendis, est mollitia aperiam aspernatur a placeat at
-            eaque magnam necessitatibus vitae? Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Culpa architecto, velit excepturi
-            doloremque commodi eveniet minus optio. Dolore, perferendis, est
-            mollitia aperiam aspernatur a placeat at eaque magnam necessitatibus
-            vitae?
+            I am a passionate MERN stack developer specializing in building
+            modern, responsive, and high-performance web applications. <br /> <br /> I work
+            with MongoDB, Express.js, React, and Node.js to create scalable
+            solutions that deliver excellent user experiences. From designing
+            clean and interactive frontends to developing secure and efficient
+            backends, I strive to write maintainable code and follow best
+            practices. <br /><br />Currently expanding my expertise through hands-on
+            projects, I’m driven to solve real-world problems and bring ideas to
+            life through technology
           </p>
         </div>
         <div className="profile-img flex flex-grow  sm:bg-[#0d1321] sm:m-2 justify-center items-center rounded-3xl relative sm:static">

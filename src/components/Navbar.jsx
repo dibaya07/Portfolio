@@ -5,7 +5,7 @@ import { BsFillProjectorFill } from "react-icons/bs";
 export default function Navbar() {
   return (
     <>
-      <div className="bg-[#02080f] w-full h-[11vh] sm:h-[13vh] fixed z-50 sm:block hidden">
+      <div className="bg-[#02080f] w-full h-[13vh]  fixed z-50 sm:block hidden">
         <div className=" sm:bg-[#1e1e1f]  xl:w-[50%] sm:w-[75%]  sm:flex hidden  sm:justify-between py-2 my-2 rounded-full overflow-hidden sm:border-solid sm:border sm:border-gray-500 mx-auto">
           <div className="logo   sm:flex hidden   sm:flex-grow  items-center justify-center font-bold text-3xl ">
             <TbBrandDjango />
